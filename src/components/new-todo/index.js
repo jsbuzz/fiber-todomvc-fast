@@ -2,7 +2,7 @@ import Fiber from 'fiber';
 import NameSpace from 'namespace';
 import Events from 'events';
 
-const ENTER = 13;
+export const ENTER = 13;
 
 class NewTodoComponent extends Fiber.UIComponent {
 
